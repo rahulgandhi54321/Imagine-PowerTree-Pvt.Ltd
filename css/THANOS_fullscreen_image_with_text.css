@@ -1,0 +1,66 @@
+div#bdiv {
+  position: absolute;
+  background: url(../../assets/img/LandscapeImage.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+h1.fwhite {
+  color: white;
+}
+
+p.fwhite {
+  color: white;
+}
+
+div#cdiv {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+@media (min-width:320px) {
+  h1.fwhite {
+    font-size: 32px;
+  }
+}
+
+@media (min-width:768px) {
+  h1.fwhite {
+    font-size: 48px;
+  }
+}
+
+@media (min-width:992px) {
+  h1.fwhite {
+    font-size: 64px;
+  }
+}
+
+@media (min-width:320px) {
+  p.fwhite {
+    font-size: 16px;
+  }
+}
+
+@media (min-width:768px) {
+  p.fwhite {
+    font-size: 22px;
+  }
+}
+
+@media (min-width:992px) {
+  p.fwhite {
+    font-size: 28px;
+  }
+}
+
